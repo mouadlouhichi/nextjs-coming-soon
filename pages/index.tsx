@@ -8,7 +8,7 @@ const IndexPage = () => (
         <img
             src="/images/xera.svg"
             alt="Themeptation "
-            className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 w-2/3	 md:block animate-blob "
+            className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 w-2/3	 md:w-full  md:block animate-blob "
         />
         <img src="/images/shapes.svg" alt="hero" className="absolute  md:w-full left-24 bottom-[20rem] md:bottom-24 animate-blob2" />
         <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900 content">
