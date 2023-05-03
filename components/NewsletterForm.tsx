@@ -71,7 +71,7 @@ const NewsletterForm = ({ status, message, onValidated }) => {
                     onKeyUp={(event) => handleInputKeyEvent(event)}
                     type="email"
                     placeholder="contact@morovento.com"
-                    className="w-full text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
+                    className="w-[33rem] text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
                 />
                 <button
                                 onClick={handleFormSubmit}
