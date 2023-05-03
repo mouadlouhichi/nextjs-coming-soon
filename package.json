@@ -1,6 +1,7 @@
 {
   "name": "coming-soon",
-  "desription": "Clean Coming Soon Template (Tailwind CSS, NextJs & HTML5)",
+  "main": "server.js",
+  "desription": "Morovento Coming Soon",
   "version": "1.0.0",
   "keywords": [
     "coming soon",
@@ -17,6 +18,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
+    "fdeploy": "next build && firebase deploy --only hosting,functions:nextServer2",
     "type-check": "tsc"
   },
   "dependencies": {
