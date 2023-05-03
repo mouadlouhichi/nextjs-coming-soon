@@ -15,7 +15,7 @@ const IndexPage = () => (
                 <h3 className="font-light text-xl uppercase tracking-wider">Coming soon</h3>
                 <img src="/images/logo.svg" alt="hero" className="mx-auto" />
                 <h1 className="text-7xl lg:text-9xl font-extrabold">We’r blowing up</h1>
-                <p className="text-lg lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
+                <p className="text-lg lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto text-gray-800">
                     We`re under construction. Check back for an update soon. Stay in touch!
                 </p>
             </div>
