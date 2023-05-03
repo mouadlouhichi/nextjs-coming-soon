@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.blurry-bg {
+    background-image: 
+    url("./bg.png"),
+      url("https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png");
+    background-blend-mode: overlay;
+    backdrop-filter: blur(10px);
+
+  }
+  .blurry-bg {
+    background-size: cover, auto;
+    background-position: center center, 0 0;
+  }
