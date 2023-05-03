@@ -45,6 +45,20 @@ module.exports = {
             filter: "blur(1px)",
           },
         },
+        blob3: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+            filter: "blur(2px)",
+          },
+          "50%": {
+            transform: "translate(10px, -10px) scale(1.1)",
+            filter: "blur(0px)",
+          },
+          "100%": {
+            transform: "tranlate(0px, 0px) scale(1)",
+            filter: "blur(1px)",
+          },
+        },
       },
     },
   },

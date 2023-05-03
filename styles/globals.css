@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  max-width: 100vw;
+  overflow: hidden;
+}
+
 .blurry-bg {
     background-image: 
     url("./bg.png"),
@@ -11,5 +17,15 @@
   }
   .blurry-bg {
     background-size: cover, auto;
-    background-position: center center, 0 0;
+    background-position: start start, 0 0;
+    overflow: hidden;
+  }
+  .content{
+    max-width: calc(100% - 1rem);
+  }
+  @media (min-width: 768px) {
+    .blurry-bg {
+      background-size: cover, auto;
+      background-position: center center, 0 0;
+    }
   }

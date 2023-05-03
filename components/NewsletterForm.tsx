@@ -65,18 +65,18 @@ const NewsletterForm = ({ status, message, onValidated }) => {
 
     return (
         <div className="relative flex flex-col items-center">
-            <div className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
+            <div className="relative w-100 z-10 mx-10 lg:max-w-xl lg:mx-auto">
                 <input
                     onChange={(event) => setEmail(event?.target?.value ?? "")}
                     onKeyUp={(event) => handleInputKeyEvent(event)}
                     type="email"
                     placeholder="contact@morovento.com"
-                    className="w-[33rem] text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
+                    className="w-100 md:w-[33rem] text-lg md:text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
                 />
                 <button
                                 onClick={handleFormSubmit}
 
-                 className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
+                 className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-lg md:text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
                     Notify me
                 </button>
             </div>
